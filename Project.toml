@@ -6,7 +6,6 @@ version = "0.1.0"
 [deps]
 DaemonMode = "d749ddd5-2b29-4920-8305-6ff5a704e36e"
 JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 
 [compat]
 julia = "1"
