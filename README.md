@@ -6,7 +6,7 @@
 [![Coverage](https://codecov.io/gh/chriselrod/JuliaFormatterDaemonMode.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/chriselrod/JuliaFormatterDaemonMode.jl)
 
 Example use, from the commandline:
-```
+```sh
 $ julia --project=~/.julia/dev/JuliaFormatterDaemonMode/ -e 'using Pkg; Pkg.update()'
 $ julia --project=~/.julia/dev/JuliaFormatterDaemonMode/ -e 'using DaemonMode; serve()'&
 $ time ~/.julia/dev/JuliaFormatterDaemonMode/bin/juliafmt ~/.julia/dev/Octavian/
